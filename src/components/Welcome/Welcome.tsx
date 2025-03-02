@@ -4,7 +4,6 @@ import classes from './Welcome.module.css';
 import { FlipWordsDemo } from './FlipWordsDemo';
 import { BackgroundBeams } from './background-beams';
 import { Tastone } from "./hover-border-gradient";
-import { IconChevronCompactDown } from '@tabler/icons-react';
 import Link from "next/link";
 
 
