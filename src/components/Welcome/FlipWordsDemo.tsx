@@ -3,7 +3,7 @@ import { FlipWords } from "./flip-words";
 import classes from './Welcome.module.css';
 
 export function FlipWordsDemo() {
-  const words = [ "meravigliosi", "scintillanti", "stupefacenti","spettacolari"];
+  //const words = [ "meravigliosi", "scintillanti", "stupefacenti","spettacolari"];
   const wordsTemp= [ "grande", "fantastico", "stupefacente","travolgente"];
 
   return (

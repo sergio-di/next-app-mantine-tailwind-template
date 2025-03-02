@@ -8,12 +8,12 @@ import Link from "next/link";
 
 
 
-const links = [
-  { link: '/#', label: 'Home' },
-  { link: '/#about-us', label: 'Chi siamo' },
-  { link: '/#what-we-do', label: 'Cosa Facciamo' },
-  { link: '/#contact-us', label: 'Contattaci' },
-];
+//const links = [
+ // { link: '/#', label: 'Home' },
+  //{ link: '/#about-us', label: 'Chi siamo' },
+ // { link: '/#what-we-do', label: 'Cosa Facciamo' },
+ // { link: '/#contact-us', label: 'Contattaci' },
+//];
 export function Welcome() {
   return (
     <>

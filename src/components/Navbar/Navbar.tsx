@@ -1,10 +1,9 @@
 "use client"
 import { useState } from 'react';
-import { Burger, Container, Group } from '@mantine/core';
+import { Container, Group } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import classes from './Navbar.module.css';
 import Link from "next/link";
-import ThemeToggle from './ThemeToggle';
 
 const links = [
   { link: '/#', label: 'Home' },

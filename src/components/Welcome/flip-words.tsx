@@ -6,7 +6,6 @@ import classes from './Welcome.module.css';
 export const FlipWords = ({
   words,
   duration = 3000,
-  className,
 }: {
   words: string[];
   duration?: number;
