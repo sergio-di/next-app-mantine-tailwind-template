@@ -7,3 +7,6 @@
 
 /* import mantine */
 @import "@mantine/core/styles.layer.css";
+html {
+    scroll-behavior: smooth;
+  }

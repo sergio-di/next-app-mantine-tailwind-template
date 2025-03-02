@@ -1,0 +1,39 @@
+.title {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-size: rem(100px);
+  font-weight: 700;
+  letter-spacing: rem(-2px);
+  z-index: 50;
+  @media (max-width: $mantine-breakpoint-md) {
+    font-size: rem(50px);
+  }
+}
+
+
+.subtitle {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-size: rem(50px);
+  font-weight: 100;
+  z-index: 50;
+  @media (max-width: $mantine-breakpoint-md) {
+    font-size: rem(50px);
+  }
+}
+
+.tastone {
+  display: flex; 
+align-items: center; 
+color:light-dark(var(--mantine-color-black), var(--mantine-color-white));
+background-color: light-dark( var(--mantine-color-white),var(--mantine-color-black));
+
+}
+
+
+.flipwords{
+  display: inline-block; 
+  position: relative; 
+  z-index: 10; 
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; 
+  text-align: left; 
+}
