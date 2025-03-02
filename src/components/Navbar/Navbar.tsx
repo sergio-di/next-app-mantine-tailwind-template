@@ -13,7 +13,7 @@ const links = [
 ];
 
 export function Navbar() {
-  const [opened, { toggle }] = useDisclosure(false);
+  const [] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
 
   const items = links.map((link) => (
@@ -22,7 +22,7 @@ export function Navbar() {
       href={link.link}
       className={classes.link}
       data-active={active === link.link || undefined}
-      onClick={(event) => {
+      onClick={() => {
         setActive(link.link);
       }}
     >
