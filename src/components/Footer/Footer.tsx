@@ -3,7 +3,6 @@
 
 import { IconBrandInstagram, IconBrandTwitter, IconBrandYoutube } from '@tabler/icons-react';
 import { ActionIcon, Container, Group, Text } from '@mantine/core';
-import  MantineLogo  from './Footer.module.css'; //todo logo
 import classes from './Footer.module.css';
 
 const data = [

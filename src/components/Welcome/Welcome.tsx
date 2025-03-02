@@ -1,13 +1,11 @@
 "use client";
-import { Anchor, Container, Text, Title } from '@mantine/core';
+import { Text, Title } from '@mantine/core';
 import classes from './Welcome.module.css';
 import { FlipWordsDemo } from './FlipWordsDemo';
 import { BackgroundBeams } from './background-beams';
-import { Tastone } from "./hover-border-gradient";
 import Link from "next/link";
 
 
-import Image from 'next/image';
 
 
 const links = [
